@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif ;
+  line-height: 1.6;
+  background: rgb(243, 250, 243);
+  color: #555;
+}
+
+.main{
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.main p{
+  font-size: 16px;
+}
+
+.main-div{
+  margin: 15px 0;
+}
+
+.navbar{
+  position: fixed;
+  left: 0;
+  width: 12%;
+  min-height: 100vh;
+  border-radius: 0 10% 10% 0;
+  background: rgb(221, 230, 221);
+  top: 0;
+}
