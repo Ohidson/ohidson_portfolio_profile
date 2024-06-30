@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #000;
   background: #f7ecec;
   animation-name: fade;
@@ -36,7 +36,7 @@ body{
 img{
   width: 200px;
   height: 200px;
-  margin-top: 50px;
+  margin-top: 60px;
   border-radius: 10%;
   margin-bottom: 50px;
   text-align: left;
