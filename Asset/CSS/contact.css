@@ -10,6 +10,12 @@ body{
 
 img{
   border-radius: 50%;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+img:hover{
+  transform: translateY(-7px);
 }
 
 .contact{
@@ -26,7 +32,7 @@ img{
 }
 
 .media i{
-  font-size: 25px;
+  font-size: 28px;
   margin: 0 15px;
   color: #777;
   transition: all 1s;
@@ -62,4 +68,20 @@ img{
 
 .navbar a:hover, .navbar a:focus{
   color: green;
+}
+
+@media(min-width: 700px){
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+    
 }
