@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(238, 245, 238);
+  color: #222;
+}
+
+.main{
+  width: 90%;
+  margin: 100px auto;
+}
+
+.picture-frame{
+  display: flex;
+}
+
+.pic-f{
+  margin: 10px auto;
+  flex-basis: 42%;
+  border-radius: 10%;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media(max-width: 750px){
+  .picture-frame{
+    display: block;
+  } 
+}
