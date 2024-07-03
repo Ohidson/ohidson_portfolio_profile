@@ -73,15 +73,11 @@ img:hover{
 @media(min-width: 700px){
   .navbar{
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
     width: 12%;
-    height: 100%;
-    background: #fff;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
   }
-    
 }
