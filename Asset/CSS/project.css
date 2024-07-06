@@ -74,16 +74,16 @@ img{
 
 .layer h2{
   position: absolute;
-  top: 50%;
+  bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
-  display: none;
   transition: 1s;
   color: green;
 }
 
 .layer:hover h2{
-  display: block;
+  
+  bottom: 50%;
 }
 
 @media(max-width: 750px){
