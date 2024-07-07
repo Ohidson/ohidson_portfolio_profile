@@ -5,7 +5,7 @@
 }
  body{
   background: #fff;
-  color: rgb(145, 214, 145);
+  color: rgb(176, 223, 176);
  }
 
  a{
@@ -50,7 +50,8 @@
   top: 0;
   left: 0;
   padding-top: 10px;
-  font-size: 18px;
+  font-size: 16px;
+  flex-wrap: wrap;
  }
 
  .navbar a{
